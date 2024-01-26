@@ -1,28 +1,66 @@
-body {
-    background-color: tan;
-    font-family: Cambria;
-    font-size: 18px;
-    color: darkslategrey;
+* {
+    margin: 0;
 }
 
-header {
-    background-color: cadetblue;
+body {
+    background-color: rgb(83, 48, 8);
+    font-family: Cambria;
+    font-size: 18px;
+    color: red;
+}
+
+.cabecalho li {
+    padding: 20px;
+    color: black;
+}
+
+.cabecalho {
+    background-color: rgb(11, 100, 141);
+}
+
+.cabecalho img {
+    padding-left: 700px;
+    padding-top: 5px;
+}
+
+.cabecalho h1 {
+    color: black;
+    padding-left: 859px;
+}
+
+.cabecalho nav img{
+    padding-left: 869px;   
+}
+
+main {
+    padding: 30px;
 }
 
 article a {
     color: black;
     text-decoration: none;
+    background-color: white;
+    padding: 10px;
 }
 
-header a {
-    color: brown;
+.cabecalho a {
+    font-size: 20px;
+    color: black;
     text-decoration: none;
 }
 
-footer {
-    background-color: cadetblue;
+article {
+    background-color: goldenrod;
+    padding: 30px;
+    margin-bottom: 30px;
 }
 
-footer p {
+article h1 {
+    color: black;
+}
+
+.rodape {
+    background-color: cadetblue;
+    padding: 30px;
     color: brown;
 }
