@@ -36,7 +36,7 @@ main {
     padding: 30px;
 }
 
-article a {
+.botao {
     color: black;
     text-decoration: none;
     background-color: white;
@@ -49,13 +49,23 @@ article a {
     text-decoration: none;
 }
 
-article {
+.materia {
     background-color: goldenrod;
     padding: 30px;
     margin-bottom: 30px;
 }
 
-article h1 {
+.menu {
+    display: flex;
+    list-style: none;
+    margin-left: 720px;
+}
+
+menu li {
+    margin-right: 20px;
+}
+
+.materia h1 {
     color: black;
 }
 
@@ -63,4 +73,8 @@ article h1 {
     background-color: cadetblue;
     padding: 30px;
     color: brown;
+}
+
+.menu a:hover {
+    color: blue;
 }
