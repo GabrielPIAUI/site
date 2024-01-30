@@ -16,20 +16,20 @@ body {
 
 .cabecalho {
     background-color: rgb(11, 100, 141);
-}
-
-.cabecalho img {
-    padding-left: 700px;
-    padding-top: 5px;
+    display: inline-flex;
 }
 
 .cabecalho h1 {
     color: black;
-    padding-left: 859px;
+    text-align: center;
 }
 
 .cabecalho nav img{
-    padding-left: 869px;   
+    padding-left: 895px;   
+}
+
+.cabecalho img {
+    display: inline-flex;
 }
 
 main {
@@ -41,6 +41,7 @@ main {
     text-decoration: none;
     background-color: white;
     padding: 10px;
+    display: inline-block;
 }
 
 .cabecalho a {
@@ -53,12 +54,17 @@ main {
     background-color: goldenrod;
     padding: 30px;
     margin-bottom: 30px;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto
+    
 }
 
 .menu {
     display: flex;
     list-style: none;
     margin-left: 720px;
+
 }
 
 menu li {
@@ -67,14 +73,31 @@ menu li {
 
 .materia h1 {
     color: black;
+    margin-bottom: 10px;
 }
 
 .rodape {
     background-color: cadetblue;
     padding: 30px;
     color: brown;
+    text-align: center;
+    font-size: 60px;
 }
 
 .menu a:hover {
     color: blue;
+}
+
+.materia a:hover {
+    color: brown;
+}
+
+.materia img {
+    width: 100%;
+}
+
+.manchete {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
