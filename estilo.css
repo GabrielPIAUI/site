@@ -22,10 +22,12 @@ body {
 .cabecalho h1 {
     color: black;
     text-align: center;
+    margin-left: 750px;
 }
 
 .cabecalho nav img{
-    padding-left: 895px;   
+    padding-left: 880px;
+    padding-top: 5px;   
 }
 
 .cabecalho img {
@@ -33,7 +35,7 @@ body {
 }
 
 main {
-    padding: 30px;
+    padding: none;
 }
 
 .botao {
@@ -42,6 +44,7 @@ main {
     background-color: white;
     padding: 10px;
     display: inline-block;
+    border-radius: 100px;
 }
 
 .cabecalho a {
@@ -88,7 +91,7 @@ menu li {
     color: blue;
 }
 
-.materia a:hover {
+.botao:hover {
     color: brown;
 }
 
@@ -100,4 +103,10 @@ menu li {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(900px,1fr));
+    gap: 20px;
 }
