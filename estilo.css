@@ -13,20 +13,24 @@ body {
 .cabecalho li {
     padding: 20px;
     color: black;
+    padding-left: 1px;
 }
 
 .cabecalho {
     background-color: rgb(11, 100, 141);
+    padding: 30px;
+    font-size: 8px;
 }
 
-.cabecalho h1 {
-    color: black;
-    text-align: center;
-    margin-left: 750px;
-}
 
 .cabecalho img {
     display: inline-flex;
+}
+
+.cabecalho a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
 }
 
 main {
@@ -43,17 +47,12 @@ main {
     font-size: 18px;
 }
 
-.cabecalho a {
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-}
-
 .materia {
     background-color: goldenrod;
     padding: 30px;
     margin-bottom: 30px;
-    width: 700px;
+    width: 320px;
+    text-align: center;
     margin-right: auto;
     margin-left: auto
     
@@ -62,25 +61,17 @@ main {
 .menu {
     display: flex;
     list-style: none;
-    margin-left: 720px;
+    padding-left: 0px;
 
 }
 
-menu li {
+.menu li {
     margin-right: 20px;
 }
 
 .materia h1 {
     color: black;
     margin-bottom: 10px;
-}
-
-.rodape {
-    background-color: cadetblue;
-    padding: 30px;
-    color: brown;
-    text-align: center;
-    font-size: 60px;
 }
 
 .menu a:hover {
@@ -103,7 +94,7 @@ menu li {
 
 .grade {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(900px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
     gap: 20px;
 }
 
@@ -126,9 +117,9 @@ menu li {
 .contato {
     background-color: darkgrey;
     padding: 30px;
-    width: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 
 textarea.campo {
@@ -144,4 +135,12 @@ textarea.campo {
 
 .mapa {
     width: 100%;
+}
+
+.rodape {
+    background-color: cadetblue;
+    padding: 30px;
+    color: brown;
+    text-align: center;
+    font-size: 60px;
 }
