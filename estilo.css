@@ -144,3 +144,13 @@ textarea.campo {
     text-align: center;
     font-size: 60px;
 }
+
+@media (min-width: 768px) {
+    .cabecalho a {
+        font-size: 18px;
+    }
+
+    .materia h1 {
+        font-size: 30px;
+    }
+}
