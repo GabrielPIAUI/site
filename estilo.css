@@ -7,7 +7,7 @@ body {
     background-color: gray;
     font-family: Cambria;
     font-size: 18px;
-    color: red;
+    color: black;
 }
 
 .cabecalho li {
@@ -61,12 +61,12 @@ main {
 .menu {
     display: flex;
     list-style: none;
-    padding-left: 0px;
+    margin-left: auto;
 
 }
 
 .menu li {
-    margin-right: 20px;
+    margin-right: -10px;
 }
 
 .materia h1 {
@@ -101,6 +101,7 @@ main {
 .rotulo {
     display: block;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .campo {
@@ -120,6 +121,10 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+}
+
+desc.contato {
+    padding-bottom: 5px;
 }
 
 textarea.campo {
@@ -149,8 +154,12 @@ textarea.campo {
     .cabecalho a {
         font-size: 18px;
     }
-
     .materia h1 {
         font-size: 30px;
     }
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
 }
